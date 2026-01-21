@@ -199,3 +199,6 @@ width: 110px;
   border-radius: 10px;
   width: 150%;
 }
+.contact-img img{
+  width: 100%;
+}
