@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rannox Media & IT - Client Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="SM Logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-element" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-element" style="left: 20%; animation-delay: 2s;"></div>
+        <div class="floating-element" style="left: 80%; animation-delay: 4s;"></div>
+    </div>
+
+    <div class="container">
+        <div class="form-header">
+            <h1>Client Request Form</h1>
+            <p>Thank you for choosing Rannox Media & IT. Kindly fill the form below.</p>
+        </div>
+
+        <div class="form-card">
+            <form id="contactForm">
+                <div class="form-row">
+
+                    <div class="form-group short-field">
+    <label for="companyName">Company Name or Your Name <span class="required">*</span></label>
+    <div class="input-icon" data-icon="🏢">
+        <input 
+            type="text"
+            id="companyName"
+            name="companyName"
+            placeholder="Your Company Name"
+            required
+        >
+    </div>
+    <div class="focus-indicator"></div>
+    <div class="error-message">Please enter your company name</div>
+</div>
+
+
+                    <div class="form-group short-field">
+                        <label for="orderNumber">Order Number <span class="required">*</span></label>
+                        <div class="input-icon" data-icon="☎️">
+                            <input 
+                                 type="tel"
+                                id="phoneNumber"
+                                name="phoneNumber"
+                                placeholder="Your Phone Number"
+                                required
+                                pattern="[0-9]{11}"
+                                title="Enter an 11-digit phone number"
+                            >
+                        </div>
+                        <div class="focus-indicator"></div>
+                        <div class="error-message">Please enter phone number (e.g., 08109876543)</div>
+                    </div>
+
+                    <div class="form-group short-field">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <div class="input-icon" data-icon="📧">
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="your.email@example.com" 
+                                required
+                            >
+                        </div>
+                        <div class="focus-indicator"></div>
+                        <div class="error-message">Please enter a valid email address</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="productSelect">Choose a service you want<span class="required">*</span></label>
+                    <select id="productSelect" name="product" required>
+                        <option value="">Select a product...</option>
+                        <option value="wireless-headphones">Website Design & Development</option>
+                        <option value="smartphone-case">Social Media Management</option>
+                        <option value="laptop-stand">Graphics Design</option>
+                        <option value="desk-organizer">UI/UX & App Development</option>
+                        <option value="gaming-mouse">Ads Setup</option>
+                        <option value="keyboard">LinkedIn Optimization</option>
+                        <option value="monitor">Brand Development</option>
+                        <option value="tablet">Website Audition</option>
+                        <option value="smartwatch">Video Editing</option>
+                        <option value="speaker">Content Creation</option>
+                        <option value="other">Corporate Training</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select a product from the list</div>
+                </div>
+
+                <!-- <div class="form-group">
+                    <label for="issueType">Issue Type <span class="required">*</span></label>
+                    <select id="issueType" name="issueType" required>
+                        <option value="">What can we help with?</option>
+                        <option value="defective-product">Defective Product</option>
+                        <option value="shipping-delay">Shipping Delay</option>
+                        <option value="wrong-item">Wrong Item Received</option>
+                        <option value="return-request">Return Request</option>
+                        <option value="warranty-claim">Warranty Claim</option>
+                        <option value="billing-issue">Billing Issue</option>
+                        <option value="general-inquiry">General Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select an issue type</div>
+                </div> -->
+
+                <!-- <div class="form-group">
+                    <label for="productSelect">Related Product <span class="required">*</span></label>
+                    <select id="productSelect" name="product" required>
+                        <option value="">Select a product...</option>
+                        <option value="wireless-headphones">Wireless Headphones</option>
+                        <option value="smartphone-case">Smartphone Case</option>
+                        <option value="laptop-stand">Laptop Stand</option>
+                        <option value="desk-organizer">Desk Organizer</option>
+                        <option value="gaming-mouse">Gaming Mouse</option>
+                        <option value="keyboard">Mechanical Keyboard</option>
+                        <option value="monitor">4K Monitor</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="smartwatch">Smartwatch</option>
+                        <option value="speaker">Bluetooth Speaker</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select a product from the list</div>
+                </div> -->
+
+                <!-- <div class="form-group">
+                    <label for="issueType">Issue Type <span class="required">*</span></label>
+                    <select id="issueType" name="issueType" required>
+                        <option value="">What can we help with?</option>
+                        <option value="defective-product">Defective Product</option>
+                        <option value="shipping-delay">Shipping Delay</option>
+                        <option value="wrong-item">Wrong Item Received</option>
+                        <option value="return-request">Return Request</option>
+                        <option value="warranty-claim">Warranty Claim</option>
+                        <option value="billing-issue">Billing Issue</option>
+                        <option value="general-inquiry">General Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select an issue type</div>
+                </div> -->
+
+                <!-- <div class="form-group">
+                    <label for="productSelect">Related Product <span class="required">*</span></label>
+                    <select id="productSelect" name="product" required>
+                        <option value="">Select a product...</option>
+                        <option value="wireless-headphones">Wireless Headphones</option>
+                        <option value="smartphone-case">Smartphone Case</option>
+                        <option value="laptop-stand">Laptop Stand</option>
+                        <option value="desk-organizer">Desk Organizer</option>
+                        <option value="gaming-mouse">Gaming Mouse</option>
+                        <option value="keyboard">Mechanical Keyboard</option>
+                        <option value="monitor">4K Monitor</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="smartwatch">Smartwatch</option>
+                        <option value="speaker">Bluetooth Speaker</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select a product from the list</div>
+                </div> -->
+
+                <!-- <div class="form-group">
+                    <label for="issueType">Issue Type <span class="required">*</span></label>
+                    <select id="issueType" name="issueType" required>
+                        <option value="">What can we help with?</option>
+                        <option value="defective-product">Defective Product</option>
+                        <option value="shipping-delay">Shipping Delay</option>
+                        <option value="wrong-item">Wrong Item Received</option>
+                        <option value="return-request">Return Request</option>
+                        <option value="warranty-claim">Warranty Claim</option>
+                        <option value="billing-issue">Billing Issue</option>
+                        <option value="general-inquiry">General Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="focus-indicator"></div>
+                    <div class="error-message">Please select an issue type</div>
+                </div> -->
+
+                <div class="form-group tall-field">
+                    <label for="description">Describe Your Issue <span class="required">*</span></label>
+                    <textarea 
+                        id="description" 
+                        name="description" 
+                        placeholder="Please provide details about your issue. Include any error messages, steps you've taken, or specific problems you're experiencing..."
+                        required
+                        minlength="20"
+                        maxlength="1000"
+                    ></textarea>
+                    <div class="focus-indicator"></div>
+                    <div class="char-count">
+                        <span id="charCount">0</span>/1000 characters
+                    </div>
+                    <div class="error-message">Please provide at least 20 characters describing your issue</div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    <span class="btn-text">Submit Request</span>
+                    <span class="loading" style="display: none;"></span>
+                </button>
+
+                <div class="success-message" id="successMessage">
+                    🎉 Your request has been submitted successfully! We'll get back to you within 24 hours.
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="form.js"></script>
+</body>
+</html>
+
